@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Message Compiler",
+  "version": "1.0.0",
+  "description": "Minimal message compiler with optional Discord timestamp and webhook sender.",
+  "action": {
+    "default_title": "Compiler",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://discord.com/api/webhooks/*",
+    "https://discordapp.com/api/webhooks/*"
+  ]
+}
